@@ -14,6 +14,7 @@ export interface Game {
   background_image: string;
   parent_platforms: [{ platform: Platform }];
   metacritic: number;
+  rating_top: number;
 } //data type   {id:1, name:'test', background_image:'www.image.com',parent_platforms:[{platform:{id, name:'pc', slug:'pc'}}]}
 
 const useGames = (
