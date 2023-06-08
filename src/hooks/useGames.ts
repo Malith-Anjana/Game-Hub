@@ -1,3 +1,4 @@
+import { GameQuery } from "../App";
 import useData from "./useData";
 import { Genre } from "./useGenres";
 
@@ -16,13 +17,14 @@ export interface Game {
 } //data type   {id:1, name:'test', background_image:'www.image.com',parent_platforms:[{platform:{id, name:'pc', slug:'pc'}}]}
 
 const useGames = (
-  selectedGenre: Genre | null,
-  selectedPlatform: Platform | null
+gameQuery: GameQuery
 ) =>
   useData<Game>(
     "/games",
-    { params: { genres: selectedGenre?.id, platforms: selectedPlatform?.id } },
-    [selectedGenre?.id, selectedPlatform?.id]
+    { params: { genres: gameQuery.genre?.id,
+       platforms: gameQuery.platform?.id 
+    }},
+    [gameQuery]
   );
 
 export default useGames;
