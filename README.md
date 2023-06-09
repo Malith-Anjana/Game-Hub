@@ -1,23 +1,13 @@
 # Game-Hub
-This React application completely deploy on https://game-hub-alpha-red.vercel.app
-This is a simple react typescript application. Retrieve, Sorting and Searching the game in cards from https://rawg.io/ free api. 
+GameHub is a video game discovery web app that helps you find new and interesting games to play. With GameHub, you can search for games by platform, genre, and more.
 App contains complete HTTP requests and responses handling in proper way.
 Reffer the  'React 18 for Beginners by Mosh Hamedani' for develop the app.
 
-# Deploy On
-```
+## Deploy On
 https://game-hub-alpha-red.vercel.app
-```
-# Game Hub
-
-GameHub is a video game discovery web app that helps you find new and interesting games to play. With GameHub, you can search for games by platform, genre, and more. 
-
-This is the project we build in my Ultimate React course. You can find the full course at: https://codewithmosh.com 
 
 ## Getting Started
-
 To get started with GameHub, follow these steps:
-
 
 1. Clone this repository to your local machine.
 2. Run `npm install` to install the required dependencies.
