@@ -1,3 +1,5 @@
+![image](https://github.com/Malith-Anjana/Game-Hub/assets/68750719/b7c2e03d-1d7a-481b-91d7-95fd57938051)
+
 # Game-Hub
 GameHub is a video game discovery web app that helps you find new and interesting games to play. With GameHub, you can search for games by platform, genre, and more.
 App contains complete HTTP requests and responses handling in proper way.
@@ -15,5 +17,4 @@ To get started with GameHub, follow these steps:
 4. Add the API key to **src/services/api-client.ts**
 5. Run `npm run dev` to start the web server. 
 
-![image](https://github.com/Malith-Anjana/Game-Hub/assets/68750719/b7c2e03d-1d7a-481b-91d7-95fd57938051)
 
